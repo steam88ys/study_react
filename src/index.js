@@ -8,4 +8,8 @@
 // import './sol_slot_machine.js';
 // import './state-study-1.js'
 // import './sol-user-profile.js'
-import './state-sudy-3.js'
+// import './state-sudy-3.js'
+// import './counter-with-hook-caveat.js'
+// import './counter-demo.js'
+// import './immutable-list-manipulation.js'
+import './manipulate-list.js'
