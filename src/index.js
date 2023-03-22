@@ -12,4 +12,5 @@
 // import './counter-with-hook-caveat.js'
 // import './counter-demo.js'
 // import './immutable-list-manipulation.js'
-import './manipulate-list.js'
+// import './manipulate-list.js'
+import './todo-app-demo.js'
