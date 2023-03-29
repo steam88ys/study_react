@@ -31,6 +31,7 @@ function CartItem(props) {
                 }}>+</button>&nbsp;
 
                 <button onClick={()=> {
+                    if(props.item.count === 1) props.handleItemRemove(props.item.id)
                     props.handleCountChange(props.item.id, -1)
                 }}>-</button>&nbsp;
                  
