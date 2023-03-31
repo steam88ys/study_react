@@ -31,8 +31,8 @@ function CartItem(props) {
                 }}>+</button>&nbsp;
 
                 <button onClick={()=> {
-                    if(props.item.count === 1) props.handleItemRemove(props.item.id)
-                    props.handleCountChange(props.item.id, -1)
+                    if(props.item.count === 1) props.handleItemRemove(props.item.id)    // 수량이 0이 되면 항목 삭제
+                    else props.handleCountChange(props.item.id, -1)
                 }}>-</button>&nbsp;
                  
                 <button onClick={() => {
@@ -63,14 +63,15 @@ function CartApp(props) {
         })
     })
 
+    /* jsx */
     return (
-        /* jsx */
         <div>
             <Input onButtonClick={addListItem} inputPlaceholder="추가할 항목을 입력하세요." buttonLabel="추가" buttonColor="white"/>
             { itemlist.map(item => <CartItem 
-            handleCountChange={addItemCount}
-            handleItemRemove={removeListItem}
-            item={item}/>) }  {/* 문자열을 div로 감싼 문자열로 변경 */}
+                handleCountChange={addItemCount}
+                handleItemRemove={removeListItem}
+                item={item}/>) 
+            }  {/* 문자열을 div로 감싼 문자열로 변경 */}
         </div>
     )
 }

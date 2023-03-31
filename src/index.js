@@ -14,4 +14,7 @@
 // import './immutable-list-manipulation.js'
 // import './manipulate-list.js'
 // import './todo-app-demo.js'
-import './cart-app'
+// import './cart-app'
+// import './use-effect-intro.js'
+// import './use-effect-deps.js'
+import './use-effect-using-local-storage.js'
