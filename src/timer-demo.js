@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 
-const Timer = function(props) {
+const Timer = function (props) {
     const [timerState, setTimerState] = useState({
         time: props.time,
         timeout: false
@@ -12,10 +12,10 @@ const Timer = function(props) {
         const id = setInterval(() => {
             setTimerState(prevState => {
                 console.log('from setInterval', id)
-                if( prevState.time === 1 ) {
+                if (prevState.time === 1) {
                     console.log('clearInterval (by timeout)')
                     clearInterval(id)
-                    return { ...prevState, timeout: true, time: prevState.time - 1}
+                    return { ...prevState, timeout: true, time: prevState.time - 1 }
                 } else {
                     return { ...prevState, time: prevState.time - 1 }
                 }
@@ -34,7 +34,7 @@ const Timer = function(props) {
     )
 }
 
-const App = function(props) {
+const App = function (props) {
     const [trigger, setTrigger] = useState(false)
 
     return (
