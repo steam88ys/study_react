@@ -23,4 +23,5 @@
 // import './use-effect-with-dom.js'
 // import './timer-demo'
 // import './github-fetch-repos'
-import './github-user-search-app'
+// import './github-user-search-app'
+import './kanye-rest'

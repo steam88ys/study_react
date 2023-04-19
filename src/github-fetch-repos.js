@@ -19,7 +19,7 @@ function RepoSearchApp() {
     const [repos, setRepos] = useState([])
     const [loading, setLoading] = useState(true)
     // 자기 아이디, PAT 토큰값으로 변경
-    const PAT = "YOUR PAT HERE"
+    const PAT = "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"
 
     useEffect(() => {
         if(username != null) {
