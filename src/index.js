@@ -39,4 +39,7 @@
 // import './using-css-module.js'
 // import './using-styled-components.js'
 // import './using-svg.js'
-import './using-react-icons'
+// import './using-react-icons'
+// import './use-reducer-counter-1'
+// import './use-reducer-counter-2'
+import './use-reducer-todo-app-1.js'
