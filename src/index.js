@@ -46,4 +46,6 @@
 // import './use-callback-counter-demo'
 // import './use-memo-demo'
 // import './user-manage-app'
-import './using-react-memo'
+// import './using-react-memo'
+// import './test_3102'
+import './suhang'
